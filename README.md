@@ -1,6 +1,6 @@
 # Visit Github Pages to access the deployed code
 
-(https://faizan-aka.github.io/tasks-app-custom-http-hook)
+(https://faizan-aka.github.io/reactmeals)
 
 # Getting Started with Create React App
 
