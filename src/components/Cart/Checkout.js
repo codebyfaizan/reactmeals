@@ -63,7 +63,18 @@ const Checkout = (props) => {
       enteredPhoneIsValid;
 
     if (!formIsValid) {
+      return;
     }
+
+    props.onConfirm({
+      name: enteredName,
+      house: enteredHouse,
+      area: enteredArea,
+      city: enteredCity,
+      state: enteredState,
+      pincode: enteredPincode,
+      phone: enteredPhone,
+    });
   };
 
   const nameControlClasses = `${classes.control} ${
